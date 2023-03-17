@@ -1,6 +1,3 @@
-:root{
-  --height-toolbar: 60px
-}
 .heightTotal{
   height:  calc(100vh - var(--height-toolbar))
 }

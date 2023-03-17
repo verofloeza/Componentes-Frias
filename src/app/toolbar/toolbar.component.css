@@ -1,0 +1,27 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--height-Toolbar);
+  display: flex;
+  align-items: center;
+  background-color:#fcd34d;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar #twitter-logo {
+  height: var(--height-icons);
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height:  var(--height-icons);
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
